@@ -18,10 +18,10 @@ body{
 }
 .logopart{
     display: flex;
-    padding: 10px;
+    padding: 10px 75px 10px 75px;
 }
 .logo{
-    flex: 3;
+    flex: 2;
     font-weight: bolder;
     font-size: 24px;
     color: #f9faf8;
@@ -37,6 +37,7 @@ a{
     display: flex;
     flex-direction: row;
     padding: 75px;
+    gap: 30px;
 }
 .headintro{
     flex: 1.5;
@@ -64,4 +65,97 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.mainbody{
+    display: flex;
+    flex-direction: column;
+}
+.mainone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainonecontent{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding-bottom: 70px;
+}
+.mainitem1,.mainitem2,.mainitem3,.mainitem4{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainitem1i,.mainitem2i,.mainitem3i,.mainitem4i{
+    border: 3.5px solid #3882f6;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+}
+#randinf{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 20px;
+    
+}
+#mainonetext{
+    text-align: center;
+    font-size: 12px;
+}
+.mainonetexthead{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.maintwo{
+    background-color: #e5e7eb;
+    padding: 50px 100px 50px 100px;
+}
+#quotetext{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    padding-bottom: 10px;
+}
+.mainthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.threecontent{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    width: 80%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    padding: 40px 75px 40px 75px;
+}
+.threetext , .threebutton{
+    padding: 10px 15px 10px 15px;
+    color: #f9faf8;
+}
+#signup2{
+    border: 1px solid #f9faf8;
+    /* padding: 5px 40px 5px 40px; */
+    background-color: #3882f6; 
+    color: #f9faf8;
+    font-weight: bold; 
+}
+.footer{
+    text-align: center;
+    color: #F9faf8;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
